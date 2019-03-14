@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["dom", "es2017"],
+    "module": "commonjs",
+    "target": "es2017",
+    "noImplicitAny": true,
+    "noUnusedParameters": true,
+    "extendedDiagnostics": true,
+    "resolveJsonModule": true,
+    "typeRoots": ["./typings", "./node_modules/@types"]
+  },
+  "include": ["src", "typings"],
+  "exclude": ["package.json", "node_modules"]
+}

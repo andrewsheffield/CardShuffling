@@ -1,0 +1,19 @@
+{
+  "extends": ["tslint:latest", "tslint-config-prettier"],
+  "rulesDirectory": ["tslint-plugin-prettier"],
+  "rules": {
+    "prettier": true,
+    "max-classes-per-file": [true, 2],
+    "no-default-export": false,
+    "restrict-plus-operands": true,
+    "strict-boolean-expressions": true,
+    "interface-name": [false, "always-prefix"],
+    "member-access": [true, "no-public"],
+    "jsx-no-lambda": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false
+  },
+  "linterOptions": {
+    "exclude": []
+  }
+}

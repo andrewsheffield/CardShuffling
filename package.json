@@ -1,0 +1,25 @@
+{
+  "name": "cardshuffling",
+  "version": "1.0.0",
+  "description": "card shuffling coding excerise",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewsheffield/CardShuffling.git"
+  },
+  "author": "Sheff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewsheffield/CardShuffling/issues"
+  },
+  "homepage": "https://github.com/andrewsheffield/CardShuffling#readme",
+  "devDependencies": {
+    "ts-node": "^8.0.3",
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  }
+}
