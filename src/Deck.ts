@@ -6,9 +6,6 @@ export class Deck {
     cards: any[] = unshuffledCards;
 
     shuffle() {
-        // Sets card as unshuffled ... not required
-        this.cards = unshuffledCards;
-
         // assigns a sort order to each card from Math.random
         const shuffledCards: Array<{ suit: string, value: string | number, sortOrder: number }> = 
             unshuffledCards.map( card => {
